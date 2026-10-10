@@ -87,4 +87,4 @@ docs/architecture.md        design notes and decisions
 
 ## Author
 
-Kumud Khandelwal, Senior Data Engineer (Microsoft Fabric, Snowflake, dbt). [LinkedIn](https://www.linkedin.com/in/kumud-khandelwal-a8723021/)
+Kumud Khandelwal, Consultant - Data (Analytics + Engineer) (Microsoft Fabric, Snowflake, dbt, SQL, Power BI, Google Studio, agentic AI). [LinkedIn](https://www.linkedin.com/in/kumud-khandelwal-a8723021/)
