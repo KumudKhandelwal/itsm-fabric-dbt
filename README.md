@@ -1,6 +1,6 @@
 # ITSM Analytics on Microsoft Fabric with dbt
 
-![dbt CI](https://github.com/<your-username>/itsm-fabric-dbt/actions/workflows/ci.yml/badge.svg)
+![dbt CI](https://github.com/KumudKhandelwal/itsm-fabric-dbt/actions/workflows/ci.yml/badge.svg)
 
 A production-style ELT project: a **Medallion (Bronze / Silver / Gold) Lakehouse** built with **dbt**, targeting **Microsoft Fabric**, with automated testing and **Git-based CI/CD**. It models IT service management data (incidents, requests, changes, assets, CMDB) into a star schema and operational KPIs (MTTR, SLA compliance, change success, backlog).
 
