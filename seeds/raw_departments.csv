@@ -1,0 +1,11 @@
+dept_id,dept_name,cost_center
+1,IT Services,CC1000
+2,FINANCE,CC1010
+3,HR,CC1020
+4,Telecom,CC1030
+5,Sales,CC1040
+6,Operations,CC1050
+7,Legal,CC1060
+8, Marketing ,CC1070
+9,Procurement,CC1080
+10,ENGINEERING,CC1090

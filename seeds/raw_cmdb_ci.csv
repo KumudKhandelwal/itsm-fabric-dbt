@@ -1,0 +1,151 @@
+ci_id,ci_name,ci_class,environment,owner_group_id,criticality
+1,ci-0001,Storage,prod,4,3
+2,ci-0002,Application,prod,6,3
+3,ci-0003,Server,dev,12,4
+4,ci-0004,Network,prod,8,3
+5,ci-0005,Storage,prod,2,4
+6,ci-0006,Storage,prod,6,1
+7,ci-0007,Server,test,10,4
+8,ci-0008,Database,test,12,3
+9,ci-0009,Storage,test,1,1
+10,ci-0010,Network,prod,3,4
+11,ci-0011,server,prod,6,3
+12,ci-0012,Network,prod,11,4
+13,ci-0013,Application,prod,9,3
+14,ci-0014,Network,test,2,1
+15,ci-0015,Database,dev,2,3
+16,ci-0016,Application,prod,5,4
+17,ci-0017,database,prod,12,4
+18,ci-0018,Server,test,12,1
+19,ci-0019,Storage,test,12,2
+20,ci-0020,Application,prod,3,2
+21,ci-0021,NETWORK,test,9,2
+22,ci-0022,Storage,prod,12,4
+23,ci-0023,Storage,dev,2,2
+24,ci-0024,Application,dev,9,3
+25,ci-0025,Database,prod,3,4
+26,ci-0026,Storage,prod,9,2
+27,ci-0027, Application ,test,4,3
+28,ci-0028,Storage,prod,11,3
+29,ci-0029,Database,prod,3,2
+30,ci-0030,Database,test,10,1
+31,ci-0031,server,test,10,4
+32,ci-0032,Storage,dev,9,3
+33,ci-0033,Application,dev,2,1
+34,ci-0034,Database,dev,6,2
+35,ci-0035,Application,test,6,4
+36,ci-0036,Database,prod,8,1
+37,ci-0037,Application,prod,5,4
+38,ci-0038,Storage,prod,10,3
+39,ci-0039,Database,dev,8,4
+40,ci-0040,Application,prod,9,4
+41,ci-0041,Database,TEST,5,4
+42,ci-0042,Storage,dev,1,1
+43,ci-0043, Network ,test,7,3
+44,ci-0044,Server,prod,5,1
+45,ci-0045,Network,test,10,1
+46,ci-0046,Database,dev,6,3
+47,ci-0047, Database ,dev,1,1
+48,ci-0048,Database,dev,3,2
+49,ci-0049,Application, test ,10,3
+50,ci-0050,Storage,dev,5,4
+51,ci-0051,Server,prod,10,3
+52,ci-0052,Server,test,10,2
+53,ci-0053,Server,prod,12,4
+54,ci-0054,Database,PROD,12,1
+55,ci-0055,DATABASE,test,7,2
+56,ci-0056,Network,dev,12,1
+57,ci-0057,Database,test,8,4
+58,ci-0058,Application,dev,6,3
+59,ci-0059,Application,prod,5,3
+60,ci-0060,Database,test,12,2
+61,ci-0061,Network,test,12,3
+62,ci-0062,application,dev,7,3
+63,ci-0063,Database,test,2,3
+64,ci-0064,Network,dev,9,3
+65,ci-0065,Storage,prod,12,2
+66,ci-0066,DATABASE,prod,1,1
+67,ci-0067,Network,dev,3,1
+68,ci-0068,Storage,prod,8,4
+69,ci-0069,Database,test,11,1
+70,ci-0070,Server,prod,12,1
+71,ci-0071,Database,prod,1,4
+72,ci-0072, Network ,test,1,3
+73,ci-0073,Storage,test,11,4
+74,ci-0074,Database,dev,2,3
+75,ci-0075,Database,test,1,3
+76,ci-0076,Application, prod ,11,4
+77,ci-0077,Network,prod,2,2
+78,ci-0078,Database,PROD,7,2
+79,ci-0079,Network,test,12,1
+80,ci-0080,Application,PROD,2,4
+81,ci-0081, Application ,test,11,3
+82,ci-0082,Application,prod,8,2
+83,ci-0083,Network,test,9,4
+84,ci-0084,Storage,prod,11,1
+85,ci-0085,Storage,test,10,1
+86,ci-0086,Server,prod,3,2
+87,ci-0087,Application,dev,4,4
+88,ci-0088,Server,dev,8,2
+89,ci-0089,Storage,prod,11,3
+90,ci-0090,Server,prod,10,1
+91,ci-0091,Server,prod,1,1
+92,ci-0092,NETWORK, dev ,3,4
+93,ci-0093,Application,dev,7,4
+94,ci-0094,Server,prod,6,1
+95,ci-0095,Database,dev,12,2
+96,ci-0096,Server,test,12,4
+97,ci-0097,Storage,prod,6,2
+98,ci-0098, Application ,PROD,11,4
+99,ci-0099,Storage,prod,2,1
+100,ci-0100,STORAGE,prod,1,4
+101,ci-0101,Network,prod,1,2
+102,ci-0102,Storage,prod,12,3
+103,ci-0103,Storage,test,3,2
+104,ci-0104,Network,prod,10,2
+105,ci-0105,Network,prod,11,4
+106,ci-0106,Storage,dev,5,4
+107,ci-0107,Database,dev,4,3
+108,ci-0108,Database,prod,7,2
+109,ci-0109,Network,prod,2,4
+110,ci-0110,application,PROD,7,1
+111,ci-0111, Server ,prod,6,3
+112,ci-0112,Server,prod,2,4
+113,ci-0113,Database,prod,4,3
+114,ci-0114,Application,test,6,4
+115,ci-0115,network,dev,6,2
+116,ci-0116,Application,prod,4,2
+117,ci-0117,Server,dev,4,3
+118,ci-0118,Database,prod,11,3
+119,ci-0119,Application,dev,11,4
+120,ci-0120, Network , test ,12,4
+121,ci-0121,Database,prod,2,1
+122,ci-0122,Server,prod,3,1
+123,ci-0123,Database,TEST,11,4
+124,ci-0124,NETWORK,DEV,9,3
+125,ci-0125,Storage,prod,12,4
+126,ci-0126,database,prod,4,2
+127,ci-0127,Storage,test,7,1
+128,ci-0128,Application,dev,12,2
+129,ci-0129,Application,prod,11,1
+130,ci-0130,Server,dev,1,1
+131,ci-0131,database,dev,6,1
+132,ci-0132,Storage,prod,12,4
+133,ci-0133,APPLICATION,prod,5,1
+134,ci-0134,Database,TEST,4,2
+135,ci-0135,Network, test ,4,4
+136,ci-0136,Storage,prod,12,1
+137,ci-0137,Storage,TEST,7,2
+138,ci-0138,Server,dev,6,1
+139,ci-0139,Application,dev,6,4
+140,ci-0140, Network ,dev,10,3
+141,ci-0141,Database,prod,7,2
+142,ci-0142,Network,prod,5,4
+143,ci-0143,Application,prod,3,4
+144,ci-0144,Network,dev,2,3
+145,ci-0145,storage,test,1,3
+146,ci-0146,Network,prod,9,2
+147,ci-0147,Storage, dev ,5,3
+148,ci-0148,Application, prod ,5,4
+149,ci-0149,Application,prod,4,4
+150,ci-0150,Storage,dev,5,1

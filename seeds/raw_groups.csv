@@ -1,0 +1,13 @@
+group_id,group_name,group_type,manager_id
+1,Service Desk,Support,12
+2,Network Ops,Support,198
+3,Infrastructure,Support,21
+4,Applications,Support,26
+5,Security Ops,Security,117
+6,Database Admin,Support,94
+7,Cloud Platform, Support ,91
+8,Field Services,Field,69
+9,Telecom Support,Support,175
+10,ERP Support,Support,156
+11,Data Platform,Support,137
+12,Change Advisory Board,Governance,42

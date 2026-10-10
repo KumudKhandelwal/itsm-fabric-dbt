@@ -1,0 +1,35 @@
+name: itsm_lakehouse
+version: "1.0.0"
+config-version: 2
+profile: itsm_lakehouse
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  # Seeds stand in for the raw Lakehouse tables when running locally / in CI.
+  use_seeds_as_sources: "{{ target.type == 'duckdb' }}"
+
+models:
+  itsm_lakehouse:
+    +on_schema_change: sync_all_columns
+    +file_format: delta
+    bronze:
+      +schema: bronze
+      +materialized: table
+      +tags: ["bronze"]
+    silver:
+      +schema: silver
+      +materialized: table
+      +tags: ["silver"]
+    gold:
+      +schema: gold
+      +materialized: table
+      +tags: ["gold"]
+
+seeds:
+  itsm_lakehouse:
+    +schema: raw

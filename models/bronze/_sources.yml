@@ -1,0 +1,21 @@
+version: 2
+# Used when the project runs against Fabric (target.type != duckdb).
+sources:
+  - name: lakehouse_raw
+    description: Raw tables landed in the Fabric Lakehouse (Files -> Delta) by ingestion pipelines.
+    tables:
+      - name: users
+      - name: groups
+      - name: locations
+      - name: departments
+      - name: assets
+      - name: cmdb_ci
+      - name: sla_definitions
+      - name: incidents
+        loaded_at_field: updated_at
+        freshness:
+          warn_after: {count: 1, period: day}
+          error_after: {count: 3, period: day}
+      - name: requests
+      - name: changes
+      - name: calendar

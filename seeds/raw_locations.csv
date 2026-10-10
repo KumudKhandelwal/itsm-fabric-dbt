@@ -1,0 +1,16 @@
+location_id,city,country,region
+1,Paris,FR,EMEA
+2,LYON,fr,EMEA
+3,Madrid,ES,EMEA
+4,Berlin,DE,EMEA
+5,London,gb,EMEA
+6,Milan,IT,EMEA
+7,Warsaw,pl,EMEA
+8,Dublin,IE,EMEA
+9, Lisbon ,pt,EMEA
+10,Brussels,BE,EMEA
+11,Amsterdam,NL,EMEA
+12,Pune,IN,APAC
+13,Chandigarh,IN,APAC
+14,Casablanca,MA,EMEA
+15,Tunis,TN,EMEA

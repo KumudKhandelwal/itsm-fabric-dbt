@@ -1,0 +1,88 @@
+version: 2
+
+models:
+  - name: brz_users
+    description: "Raw users as landed, plus load metadata."
+    columns:
+      - name: user_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_groups
+    description: "Raw groups as landed, plus load metadata."
+    columns:
+      - name: group_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_locations
+    description: "Raw locations as landed, plus load metadata."
+    columns:
+      - name: location_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_departments
+    description: "Raw departments as landed, plus load metadata."
+    columns:
+      - name: dept_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_assets
+    description: "Raw assets as landed, plus load metadata."
+    columns:
+      - name: asset_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_cmdb_ci
+    description: "Raw cmdb_ci as landed, plus load metadata."
+    columns:
+      - name: ci_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_sla_definitions
+    description: "Raw sla_definitions as landed, plus load metadata."
+    columns:
+      - name: sla_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_incidents
+    description: "Raw incidents as landed, plus load metadata."
+    columns:
+      - name: incident_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+      - name: opened_at
+        description: "Opened timestamp as received."
+        data_tests:
+          - not_null
+      - name: updated_at
+        description: "Source update timestamp, used for incremental loads."
+        data_tests:
+          - not_null
+  - name: brz_requests
+    description: "Raw requests as landed, plus load metadata."
+    columns:
+      - name: request_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_changes
+    description: "Raw changes as landed, plus load metadata."
+    columns:
+      - name: change_id
+        description: "Business key as received."
+        data_tests:
+          - not_null
+  - name: brz_calendar
+    description: "Raw calendar as landed, plus load metadata."
+    columns:
+      - name: date_day
+        description: "Business key as received."
+        data_tests:
+          - not_null
